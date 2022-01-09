@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/images"
+        android:id="@+id/img1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:textSize="20dp"
+        android:text="This is Demo Text"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

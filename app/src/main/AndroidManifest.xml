@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amazon.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/android"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Amazon.DarkActionBar">
+        <activity android:name=".account.Activity2" />
+        <activity android:name=".account.Activity1" />
+        <activity android:name=".StaffRegister" />
+        <activity
+            android:name=".LancherActivity"
+            android:label="@string/title_activity_lancher"
+            android:theme="@style/Theme.Amazon.DarkActionBar.DarkActionBar" />
+        <activity android:name=".account.SpaceActivity" />
+        <activity android:name=".account.ScrollActivity" />
+        <activity android:name=".account.SixthActivity" />
+        <activity android:name=".account.SecondActivity" />
+        <activity android:name=".account.MainActivity" />
+        <activity android:name=".account.AnotherSignup" />
+        <activity android:name=".account.BackActivity1" />
+        <activity android:name=".account.BackActivity" />
+        <activity android:name=".account.CustomAdapter" />
+        <activity android:name=".account.StudentRegister" />
+        <activity android:name=".account.ExposedDropdown" />
+        <activity android:name=".account.TextView" />
+        <activity android:name=".account.CustomPrpgressBar" />
+        <activity android:name=".account.RecyclerView1" />
+        <activity android:name=".account.MusicPlayerActivity" />
+        <activity android:name=".account.EditTextActivity" />
+        <activity android:name=".account.ImageView" />
+        <activity android:name=".account.SwitchActivity" />
+        <activity android:name=".account.ToggleActivity" />
+        <activity android:name=".account.ViewPagerActivity" />
+        <activity android:name=".account.ScrollView" />
+        <activity android:name=".account.HorizontalActivity" />
+        <activity android:name=".account.RatingBarActivity" />
+        <activity android:name=".account.FragmentActivity" />
+        <activity android:name=".account.ImageButtonActivity" />
+        <activity android:name=".account.Camera" />
+        <activity android:name=".SmsActivity" />
+        <activity android:name=".account.PushNotificationActivity" />
+        <activity android:name=".account.AnotherLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".account.AlertBox" />
+        <activity android:name=".account.webViewActivity" />
+        <activity android:name=".account.SmsSendMessage" />
+        <activity android:name=".account.VideoViewActivity" />
+        <activity android:name=".account.SearchActivity" />
+        <activity android:name=".account.ConstraintLayout" />
+        <activity android:name=".account.FrameActivity" />
+        <activity android:name=".account.FloatingButton" />
+        <activity android:name=".account.ChipChipGroup" />
+        <activity android:name=".account.ListViewActivity" />
+        <activity android:name=".account.SeekBarActivity" />
+        <activity android:name=".account.SpinnerActivity" />
+        <activity android:name=".account.FifthActivity" />
+        <activity android:name=".account.FouthActivity" />
+        <activity android:name=".account.RecyclerActivity" />
+        <activity android:name=".account.ThirdActivity" />
+        <activity android:name=".account.SignupActivity" />
+        <activity android:name=".account.ForgotPasswordActivity" />
+        <activity android:name=".account.ProgressBarActivity" />
+    </application>
+
+</manifest>

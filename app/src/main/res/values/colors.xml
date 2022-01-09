@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#2196F3</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorFuncButtonBG">#333333</color>
+    <color name="colorFuncButtonTxt">#c4c4c4</color>
+
+    <color name="colorNumButtonBG">#c4c4c4</color>
+    <color name="colorNumButtonTxt">#333333</color>
+
+    <color name="colorEqlButtonBG">#ec7701</color>
+    <color name="colorEqlButtonTxt">#c4c4c4</color>
+</resources>

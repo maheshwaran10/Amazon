@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".account.ChipChipGroup">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Chip"
+    android:layout_gravity="center"
+    android:textSize="20sp"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chip Default"
+        android:theme="@style/Theme.MaterialComponents.Light"/>
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:text="Chip Default + (Checkable)"
+        android:theme="@style/Theme.MaterialComponents.Light"/>
+
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:text="Chip Default + (Checkable, Close Icon Visible)"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:closeIconVisible="true"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chip Default + (Icon)"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:chipIcon="@drawable/ic_location"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip7"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:text="Chip Choice + (Checkable, Close Icon Visible)"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:closeIconVisible="true"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip8"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chip Filter + (Icon, Checkable, Close Icon Visible)"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:chipIcon="@drawable/ic_location"
+        app:closeIconVisible="true"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip9"
+        style="@style/Widget.MaterialComponents.Chip.Entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chip Entry + (Icon, Close Icon Visible)"
+        android:theme="@style/Theme.MaterialComponents.Bridge"
+        app:closeIconVisible="true"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip10"
+        style="@style/Widget.MaterialComponents.Chip.Action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chip Action + (Icon, Checkable, Close Icon Visible)"
+        android:theme="@style/Theme.MaterialComponents.DayNight"
+        android:checkable="true"
+        app:closeIconVisible="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChipGroup"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editText_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_margin="20sp"/>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/teal_700"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:background="@color/teal_200"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

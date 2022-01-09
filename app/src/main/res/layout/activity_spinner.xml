@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#74F1AC"
+    tools:context=".account.SpinnerActivity">
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="184dp"
+        android:layout_below="@id/textView5"
+        tools:layout_editor_absoluteY="315dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="387dp"
+        android:layout_height="37dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Get Value"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/spinner3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Select Your Favourite Language"
+        tools:ignore="MissingConstraints,RtlCompat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="234dp" />
+</RelativeLayout>

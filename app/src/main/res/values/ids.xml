@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="district" type="id" />
+    <item name="button2" type="id" />
+    <item name="checkBox1" type="id" />
+    <item name="checkBox2" type="id" />
+</resources>
