@@ -16,6 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Amazon.DarkActionBar">
+        <activity
+            android:name=".account.PolindromeActivity"
+            android:exported="false" />
         <activity android:name=".account.Activity2" />
         <activity android:name=".account.Activity1" />
         <activity android:name=".StaffRegister" />
